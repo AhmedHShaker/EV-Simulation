@@ -1,26 +1,38 @@
-# EV-Battery-Swapping
+# EV-Simulation
 ## Overview
-This project simulates the operations of a Shared Autonomous Electric Vehicle (SAEV) fleet that transports users on-demand in Austin, Texas. The model incorporates Battery Swapping Stations (BSS) as the charging infrastructure, and for comparison purposes, a second simulation that uses Charging Stations (CS) is created.
+Welcome to the EV-Battery-Swapping project! This simulation project offers a fascinating glimpse into the world of Shared Autonomous Electric Vehicles (SAEVs) and their charging infrastructure. With this project, you can explore and analyze the operations of a fleet of autonomous electric vehicles that provide on-demand transportation services.
 
-## Model
-The SAEV fleet is modeled with the specifications of a Tesla Model 3. This includes average charge consumption rate and maximum charge of the battery.
+## About the Model
+* **SAEV Fleet Model:** The SAEV fleet is modeled after the specifications of a Tesla Model 3, taking into account the average charge consumption rate and maximum battery capacity.
 
-Austin, Texas is represented by a 50-mile by 50-mile gridded metropolitan area, where each cell in the grid is 0.25-mile by 0.25-mile. The area is divided into 4 circular regions: Downtown in the center, followed by Urban, Suburban, and Exurban. Each region has a different size, vehicle travel speed and trip generation rate.
+* **Grid Structure:** The simulation utilizes a square-shaped grid, with each Cell measuring 0.25 miles by 0.25 miles. The grid is divided into two circular regions: Downtown (center) and Suburban (outer). Each region has distinct characteristics, including vehicle travel speed and trip generation rate.
 
-BSSs are modeled to serve a single vehicle at a time, and contain a specific number of batteries inside them. CSs contain a pre-determined number of chargers, each serving a single vehicle. The charging time for both infrastructures depends on the charger power selected (can be changed in ```constants.py```)
+* **Charging Stations (CS):** Each CS is equipped with a pre-determined number of Chargers, each capable of serving a single SAEV at a time.
+
+## Simulation Parameters
+To allow for the simulation of various scenarios, key parameters can be modified in the ```constants.py``` file. These parameters include:
+
+* The number of grid cells
+* The fleet size (number of cars)
+* The number of charging stations
+* Charger count at each station
+* Trip generation rates for each cell in downtown and suburban areas
+* Vehicle speed
+* And much more
 
 ## Simulation
-SimPy framework is used to create the process-based discrete-event simulation to model the multi-agent interactions of SAEVs, BSSs, CSs, and user trips.
+The simulation is powered by the SimPy framework, a tool for creating process-based discrete-event simulations. It models the multi-agent interactions of SAEVs, Charging Stations, and user trips. Here's a simplified breakdown of how it works:
 
-Before the SAEV simulation, the BSS/CS infrastructure is generated and optimized based on location and number of batteries/chargers.
-The SAEV simulation consists of multiple main processes:
-1) Selecting the most suitable SAEVs to serve user trips
-2) Finding optimal BSSs/CSs to swap/charge at, based on proximity and queue time
-3) Relocating SAEVs to nearby areas such that vehicle supply meets trip demand
+1) **Initialization:** Before the SAEV simulation begins, the charging infrastructure is dynamically generated with a pre-defined number of Chargers. The SAEVs are distributed randomly on the grid.
+
+2) **SAEV Fleet Simulation:** The simulation consists of two main processes:
+   * **SAEV Selection:** Determining the most suitable SAEVs to serve user trips.
+   * **Charging Strategy:** Identifying optimal CSs for recharging, taking into account proximity and queue time.
 
 ## Getting Started
-1) Download the repository
-2) Install dependencies using pip
-```pip install -r requirements.txt```
-3) OPTIONAL: Change the default values in ```constants.py```
-4) Run ```sim.py``` to start the simulation
+1) 📦 Clone the repository.
+2) 🛠️ Install dependencies using ```pip install -r requirements.txt```.
+3) ⚙️ OPTIONAL: Customize the adventure by tweaking the default values in constants.py.
+4) 🏁 Run simulation.py to start the simulation and embark on your EV adventure!
+
+Feel free to explore, modify, and contribute to this project to further enhance its capabilities. Enjoy the simulation journey! 🚀
