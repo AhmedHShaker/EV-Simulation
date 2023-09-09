@@ -1,0 +1,135 @@
+----------------------Start of SAEV Simulation----------------------
+Creating charging stations...
+CS #0 --- Location: (40, 15)
+CS #1 --- Location: (45, 8)
+CS #2 --- Location: (22, 43)
+CS #3 --- Location: (18, 11)
+CS #4 --- Location: (40, 7)
+CS #5 --- Location: (34, 31)
+CS #6 --- Location: (11, 21)
+CS #7 --- Location: (47, 31)
+Time: 0
+Car #1 started trip from (20, 37) to (11, 8) at 676
+Car #1 completed trip ((11, 8)) at 2837
+Car #1 started trip from (11, 8) to (29, 33) at 2902
+Time: 5000
+Car #1 completed trip ((29, 33)) at 5363
+Car #1 started trip from (29, 33) to (6, 45) at 5369
+Car #1 completed trip ((6, 45)) at 6160
+Time: 10000
+Car #1 started trip from (6, 45) to (20, 6) at 13477
+Time: 15000
+Car #1 completed trip ((20, 6)) at 15586
+Car #1 started trip from (20, 6) to (23, 21) at 15588
+Car #1 completed trip ((23, 21)) at 16730
+Car #1 started trip from (23, 21) to (42, 37) at 16757
+Car #1 completed trip ((42, 37)) at 18797
+Car #1 started trip from (42, 37) to (37, 0) at 18873
+Time: 20000
+Car #1 completed trip ((37, 0)) at 20203
+Car #1 started trip from (37, 0) to (25, 2) at 22960
+Car #1 completed trip ((25, 2)) at 22967
+Car #1 started trip from (25, 2) to (42, 42) at 23041
+Time: 25000
+Car #1 completed trip ((42, 42)) at 25382
+Car #1 started trip from (42, 42) to (47, 47) at 25406
+Car #1 completed trip ((47, 47)) at 25837
+Car #1 started trip from (47, 47) to (21, 12) at 25871
+Car #1 completed trip ((21, 12)) at 28130
+Car #1 started trip from (21, 12) to (37, 44) at 28343
+Time: 30000
+Car #1 completed trip ((37, 44)) at 30807
+Car #1 started trip from (37, 44) to (30, 17) at 30849
+Car #1 completed trip ((30, 17)) at 32651
+Car #1 started trip from (30, 17) to (27, 20) at 32668
+Car #1 completed trip ((27, 20)) at 33268
+Car #1 started trip from (27, 20) to (11, 24) at 33276
+Car #1 completed trip ((11, 24)) at 34836
+Car #1 started trip from (11, 24) to (30, 43) at 34994
+Time: 35000
+Car #1 completed trip ((30, 43)) at 36859
+Car #1 started trip from (30, 43) to (16, 27) at 36862
+Car #1 completed trip ((16, 27)) at 39082
+Car #1 started trip from (16, 27) to (20, 21) at 39179
+Time: 40000
+Car #1 completed trip ((20, 21)) at 40259
+Car #1 started trip from (20, 21) to (7, 15) at 40261
+Car #1 completed trip ((7, 15)) at 41401
+Car #1 started trip from (7, 15) to (29, 27) at 41500
+Car #1 completed trip ((29, 27)) at 43540
+Car #1 started trip from (29, 27) to (2, 10) at 43550
+Time: 45000
+Car #1 completed trip ((2, 10)) at 45650
+Car #1 started trip from (2, 10) to (12, 44) at 45836
+Car #1 completed trip ((12, 44)) at 47167
+Car #1 started trip from (12, 44) to (27, 29) at 47188
+Car #1 completed trip ((27, 29)) at 48690
+Car #1 started trip from (27, 29) to (24, 25) at 48705
+Car #1 completed trip ((24, 25)) at 49125
+Car #1 started trip from (24, 25) to (10, 42) at 49145
+Time: 50000
+Car #1 completed trip ((10, 42)) at 50767
+Car #1 started trip from (10, 42) to (13, 14) at 50826
+Car #1 completed trip ((13, 14)) at 52455
+Car #1 started trip from (13, 14) to (40, 37) at 52459
+Time: 55000
+Car #1 completed trip ((40, 37)) at 55909
+Car #1 started trip from (40, 37) to (46, 33) at 55937
+Car #1 (charge 11270.0) driving to CS #7 at destination (47, 31) and time 56100
+Car #1 completed trip ((46, 33)) at 57078
+Car #1 started trip from (46, 33) to (38, 16) at 57496
+Car #1 (charge 72500) finished charging at time 58058
+Car #1 completed trip ((38, 16)) at 59119
+Car #1 started trip from (38, 16) to (9, 31) at 59188
+Time: 60000
+Car #1 completed trip ((9, 31)) at 62068
+Car #1 started trip from (9, 31) to (2, 15) at 62069
+Time: 65000
+Car #1 completed trip ((2, 15)) at 66571
+Car #1 started trip from (2, 15) to (35, 28) at 67024
+Car #1 completed trip ((35, 28)) at 69486
+Car #1 started trip from (35, 28) to (5, 29) at 69492
+Time: 70000
+Car #1 completed trip ((5, 29)) at 72372
+Car #1 started trip from (5, 29) to (34, 36) at 72422
+Car #1 completed trip ((34, 36)) at 74285
+Car #1 started trip from (34, 36) to (7, 47) at 74303
+Car #1 completed trip ((7, 47)) at 74802
+Time: 75000
+Car #1 started trip from (7, 47) to (24, 14) at 75269
+Car #1 completed trip ((24, 14)) at 76250
+Car #1 started trip from (24, 14) to (37, 5) at 76345
+Car #1 completed trip ((37, 5)) at 77789
+Car #1 started trip from (37, 5) to (39, 25) at 78086
+Car #1 completed trip ((39, 25)) at 79288
+Car #1 started trip from (39, 25) to (9, 1) at 79294
+Time: 80000
+Car #1 completed trip ((9, 1)) at 80511
+Car #1 started trip from (9, 1) to (35, 14) at 80700
+Car #1 completed trip ((35, 14)) at 81961
+Car #1 started trip from (35, 14) to (2, 19) at 82001
+Car #1 completed trip ((2, 19)) at 84371
+Car #1 started trip from (2, 19) to (23, 7) at 84450
+Time: 85000
+Car #1 completed trip ((23, 7)) at 85597
+Car #1 started trip from (23, 7) to (41, 47) at 85631
+----------------------End of SAEV Simulation----------------------
+Total number of trips: 33932
+Number of failed trips: 0
+Percentage of failed trips: 0.000000%
+Number of vehicles: 800
+Average trips per vehicle: 41.640000
+Average customer waiting time per trip: 297.429020 seconds
+Number of CS: 8
+Average time spent waiting to charge per vehicle: 162.525000 seconds
+Average time spent charging per charge: 1498.409950 seconds
+Average number of charges per CS: 148.875000
+Average wait time per charge: 109.168766 seconds
+Name: CS #0 Location: (40,15) Number of stations: 5 Utilization: 26.091466%
+Name: CS #1 Location: (45,8) Number of stations: 5 Utilization: 34.235721%
+Name: CS #2 Location: (22,43) Number of stations: 5 Utilization: 77.869240%
+Name: CS #3 Location: (18,11) Number of stations: 5 Utilization: 58.743601%
+Name: CS #4 Location: (40,7) Number of stations: 5 Utilization: 44.288115%
+Name: CS #5 Location: (34,31) Number of stations: 5 Utilization: 55.295433%
+Name: CS #6 Location: (11,21) Number of stations: 5 Utilization: 67.822852%
+Name: CS #7 Location: (47,31) Number of stations: 5 Utilization: 50.903863%
